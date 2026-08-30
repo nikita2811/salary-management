@@ -1,0 +1,12 @@
+djangorestframework
+django-cors-headers
+python-dotenv
+pytest
+pytest-django
+model-bakery
+pytest-cov
+factory-boy
+ruff
+django-environ
+gunicorn
+django-filter

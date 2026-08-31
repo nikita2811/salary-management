@@ -14,6 +14,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # -- Copy project 
 COPY . .
 
+RUN mkdir -p /app/db
+
 # -- Expose port 
 EXPOSE 8000
 

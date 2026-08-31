@@ -9,12 +9,16 @@ from .serializers import EmployeeSerializer, EmployeeListSerializer
 from rest_framework.decorators import action
 from django.db.models import Case, When, Value, CharField
 from django.db.models import Min, Max, Avg, Count, F, ExpressionWrapper, DecimalField
+from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import filters
 
 
 # -- used modelviewset for CRUD operations
 class EmployeeViewSet(viewsets.ModelViewSet):
     queryset = Employee.objects.all().order_by('id')
     serializer_class = EmployeeSerializer
+    filter_backends = [DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter]
+    search_fields   = ['first_name', 'last_name', 'email'] 
     
 
     def get_serializer_class(self):

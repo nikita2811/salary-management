@@ -146,5 +146,22 @@ class EmployeeViewSet(viewsets.ModelViewSet):
     def employee_count(self, request):
             count = Employee.objects.filter(is_active=True).count()
             return Response({"count": count}, status=status.HTTP_200_OK)
+
+    @action(detail=False, methods=['get'], url_path='insights/salary')
+    def salary(self, request):
+       
+
+        queryset = Employee.objects.filter(is_active=True)
+
+       
+        data = queryset.aggregate(
+           min_salary = Min('salary'),
+           max_salary = Max('salary'),
+           avg_salary = Avg('salary'),
+           headcount  = Count('id'),
+         )
+       
+
+        return Response(data, status=status.HTTP_200_OK)
       
     

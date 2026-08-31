@@ -40,6 +40,7 @@ jobs:
       - name: Run migrations
         env:
           DJANGO_SETTINGS_MODULE: salary_managements.settings
+          SECRET_KEY: 'django-insecure-04^5561t-!yid*+bu*5hy+9m=lfydha^u9p*1wo3c2-5fz)(uj'
         run: |
           python manage.py migrate
 
@@ -47,6 +48,7 @@ jobs:
       - name: Run tests
         env:
           DJANGO_SETTINGS_MODULE: salary_managements.settings
+          SECRET_KEY: 'django-insecure-04^5561t-!yid*+bu*5hy+9m=lfydha^u9p*1wo3c2-5fz)(uj'
         run: |
           pytest tests/ -v --tb=short
 
@@ -54,6 +56,7 @@ jobs:
       - name: Coverage report
         env:
           DJANGO_SETTINGS_MODULE: salary_managements.settings
+          SECRET_KEY: 'django-insecure-04^5561t-!yid*+bu*5hy+9m=lfydha^u9p*1wo3c2-5fz)(uj'
         run: |
           pip install pytest-cov
           pytest tests/ --cov=employee --cov-report=term-missing

@@ -137,5 +137,10 @@ class EmployeeViewSet(viewsets.ModelViewSet):
         )
     
         return Response(data, status=status.HTTP_200_OK)
+
+    @action(detail=False, methods=['get'], url_path='count')
+    def employee_count(self, request):
+            count = Employee.objects.filter(is_active=True).count()
+            return Response({"count": count}, status=status.HTTP_200_OK)
       
     

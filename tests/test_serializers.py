@@ -10,9 +10,9 @@ from employee.serializers import EmployeeSerializer, EmployeeListSerializer
 def valid_data():
     """Minimum valid payload to create an employee."""
     return {
-        'first_name'      : 'John',
-        'last_name'       : 'Smith',
-        'email'           : 'john.smith@company.com',
+        'first_name'      : 'Nikita',
+        'last_name'       : 'Saxena',
+        'email'           : 'nikitasaxena43@company.com',
         'phone'           : '+1-555-123-4567',
         'job_title'       : 'Software Engineer',
         'department'      : 'Engineering',
@@ -50,11 +50,11 @@ class TestEmployeeSerializerValid:
         serializer = EmployeeSerializer(data=valid_data)
         assert serializer.is_valid()
         emp = serializer.save()
-        assert Employee.objects.filter(email='john.smith@company.com').exists()
+        assert Employee.objects.filter(email='nikitasaxena43@company.com').exists()
 
     def test_serializer_returns_full_name(self, employee):
         serializer = EmployeeSerializer(employee)
-        assert serializer.data['full_name'] == 'John Smith'
+        assert serializer.data['full_name'] == 'Nikita Saxena'
 
     def test_serializer_returns_all_fields(self, employee):
         serializer = EmployeeSerializer(employee)
@@ -228,7 +228,7 @@ class TestRequiredFields:
         assert 'email' in serializer.errors
 
     def test_duplicate_email_is_invalid(self, valid_data, employee):
-        valid_data['email'] = 'john.smith@company.com'  # already exists
+        valid_data['email'] = 'nikitasaxena43@company.com'  # already exists
         serializer = EmployeeSerializer(data=valid_data)
         assert not serializer.is_valid()
         assert 'email' in serializer.errors

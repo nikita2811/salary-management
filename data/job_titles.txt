@@ -1,0 +1,58 @@
+Software Engineer
+Senior Software Engineer
+Staff Engineer
+Principal Engineer
+Engineering Manager
+VP of Engineering
+CTO
+Product Manager
+Senior Product Manager
+Director of Product
+VP of Product
+Data Analyst
+Senior Data Analyst
+Data Scientist
+Senior Data Scientist
+ML Engineer
+Senior ML Engineer
+DevOps Engineer
+Senior DevOps Engineer
+Site Reliability Engineer
+QA Engineer
+Senior QA Engineer
+QA Lead
+UI/UX Designer
+Senior Designer
+Design Lead
+HR Manager
+HR Business Partner
+Talent Acquisition Specialist
+HR Director
+Financial Analyst
+Senior Financial Analyst
+Finance Manager
+CFO
+Marketing Manager
+Content Strategist
+Growth Manager
+CMO
+Sales Executive
+Account Manager
+Sales Manager
+VP of Sales
+Customer Success Manager
+Support Engineer
+Technical Writer
+Business Analyst
+Scrum Master
+Agile Coach
+Security Engineer
+Penetration Tester
+Security Architect
+Cloud Architect
+Solutions Architect
+Enterprise Architect
+Database Administrator
+Backend Engineer
+Frontend Engineer
+Full Stack Engineer

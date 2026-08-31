@@ -1,0 +1,148 @@
+Python
+Java
+Go
+JavaScript
+TypeScript
+Rust
+C++
+C#
+Ruby
+PHP
+Swift
+Kotlin
+Scala
+R
+MATLAB
+SQL
+PostgreSQL
+MySQL
+MongoDB
+Redis
+Elasticsearch
+Cassandra
+DynamoDB
+SQLite
+Oracle
+AWS
+Azure
+GCP
+Docker
+Kubernetes
+Terraform
+Ansible
+Jenkins
+GitHub Actions
+CircleCI
+Linux
+Bash
+PowerShell
+React
+Angular
+Vue.js
+Next.js
+Node.js
+Django
+FastAPI
+Flask
+Spring Boot
+GraphQL
+REST API
+Microservices
+gRPC
+Kafka
+RabbitMQ
+Celery
+Airflow
+Spark
+Hadoop
+Snowflake
+dbt
+Tableau
+Power BI
+Looker
+Machine Learning
+Deep Learning
+NLP
+Computer Vision
+PyTorch
+TensorFlow
+Scikit-learn
+Pandas
+NumPy
+Data Analysis
+Statistics
+A/B Testing
+Figma
+Sketch
+Adobe XD
+Prototyping
+User Research
+Design Systems
+Accessibility
+Motion Design
+Wireframing
+Salesforce
+HubSpot
+CRM
+Cold Outreach
+Negotiation
+Pipeline Management
+Account Management
+SEO
+Google Analytics
+Content Marketing
+Social Media
+Email Marketing
+Paid Ads
+Copywriting
+Excel
+SAP
+Financial Modeling
+GAAP
+Forecasting
+QuickBooks
+HRIS
+Workday
+Talent Acquisition
+Performance Management
+Labor Law
+Compensation Planning
+DEI
+Zendesk
+Intercom
+Customer Onboarding
+Churn Analysis
+NPS
+Contract Law
+Compliance
+IP Law
+Risk Management
+Process Improvement
+Lean
+Six Sigma
+ERP
+Supply Chain
+Penetration Testing
+SIEM
+SOC 2
+ISO 27001
+Network Security
+Threat Modeling
+Zero Trust
+Active Directory
+Office 365
+ITIL
+Agile
+Scrum
+Kanban
+JIRA
+Confluence
+OKRs
+Stakeholder Management
+Roadmapping
+Product Strategy
+Go-to-Market
+Presentation
+Communication
+Leadership
+Mentoring
